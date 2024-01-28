@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51d2e17-bf86-442b-a57f-ac4451461721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Zjazd 6_27.01_28.01.2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_NN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Pingwiny.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Penguins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f-c 1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0_tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google Colab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Robot framework.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -47,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.2_Pingwiny.executor": "Run",
+    "Python.Google Colab.executor": "Run",
     "Python.NN.executor": "Run",
     "Python.Penguins.executor": "Run",
     "Python.main.executor": "Run",
@@ -54,8 +49,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/longi/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.10",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "C:/Users/longi/PycharmProjects/Zjazd 6_27.01_28.01.2024",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">

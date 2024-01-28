@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-01-28T14:13:05.432574" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot framework" source="C:\Users\longi\PycharmProjects\Zjazd 6_27.01_28.01.2024\Robot framework.robot">
+<test id="s1-t1" name="Test 1" line="25">
+<kw name="Log in Wikipedia">
+<kw name="Open Browser">
+<msg time="2024-01-28T14:13:05.460209" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>https://pl.wikipedia.org</arg>
+<arg>chrome</arg>
+<status status="FAIL" start="2024-01-28T14:13:05.460209" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Wait Until Page Contains Element">
+<arg>id:pt-Login-2</arg>
+<arg>5</arg>
+<status status="NOT RUN" start="2024-01-28T14:13:05.462103" elapsed="0.000000"/>
+</kw>
+<kw name="Page Should Contain Element">
+<arg>id:pt-Login-2</arg>
+<status status="NOT RUN" start="2024-01-28T14:13:05.462103" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element">
+<arg>id:pt-Login-2</arg>
+<status status="NOT RUN" start="2024-01-28T14:13:05.463165" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text">
+<arg>id:wpName1</arg>
+<arg>${login}</arg>
+<status status="NOT RUN" start="2024-01-28T14:13:05.463165" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text">
+<arg>id:wpPassword1</arg>
+<arg>${password}</arg>
+<status status="NOT RUN" start="2024-01-28T14:13:05.464146" elapsed="0.000000"/>
+</kw>
+<kw name="Checkborx Should Not Be Selected">
+<arg>id:wpRemember</arg>
+<status status="NOT RUN" start="2024-01-28T14:13:05.464146" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button">
+<arg>id:wpLoginAttempt</arg>
+<status status="NOT RUN" start="2024-01-28T14:13:05.465141" elapsed="0.000000"/>
+</kw>
+<arg>${wikipedia_login}</arg>
+<arg>${wikipedia_correct_password}</arg>
+<status status="FAIL" start="2024-01-28T14:13:05.459177" elapsed="0.005964">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2024-01-28T14:13:05.466686" elapsed="0.000000"/>
+</kw>
+<kw name="Input text">
+<arg>name:search</arg>
+<arg>WSB</arg>
+<status status="NOT RUN" start="2024-01-28T14:13:05.467689" elapsed="0.000000"/>
+</kw>
+<kw name="Press Keys">
+<arg>name:search</arg>
+<arg>RETURN</arg>
+<status status="NOT RUN" start="2024-01-28T14:13:05.467689" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>60</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-28T14:13:05.469240" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" start="2024-01-28T14:13:05.470823" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-01-28T14:13:05.459177" elapsed="0.011646">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" start="2024-01-28T14:13:05.434556" elapsed="0.038244"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Robot framework">Robot framework</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-01-28T14:13:05.456591" level="ERROR">Error in file 'C:\Users\longi\PycharmProjects\Zjazd 6_27.01_28.01.2024\Robot framework.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\longi\PycharmProjects\Zjazd 6_27.01_28.01.2024\.venv\Scripts\robot.exe
+  C:\Users\longi\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\longi\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\longi\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\longi\AppData\Local\Programs\Python\Python312
+  C:\Users\longi\PycharmProjects\Zjazd 6_27.01_28.01.2024\.venv
+  C:\Users\longi\PycharmProjects\Zjazd 6_27.01_28.01.2024\.venv\Lib\site-packages</msg>
+</errors>
+</robot>
